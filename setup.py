@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-  name = "newrelic",
+  name = "netspy",
   version = "1.0.0",
   description = "GUI debugger for OSE message system.",
   author = "Graham Dumpleton",
