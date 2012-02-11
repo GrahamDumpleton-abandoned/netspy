@@ -8,11 +8,11 @@ import Tkinter
 import Pmw
 import netsvc
 
-from AgentCatalog import AgentCatalog
-from ServiceCatalog import ServiceCatalog
-from GroupCatalog import GroupCatalog
-from RegistryLogger import RegistryLogger
-from ReportViewer import ReportViewer
+from netspy.AgentCatalog import AgentCatalog
+from netspy.ServiceCatalog import ServiceCatalog
+from netspy.GroupCatalog import GroupCatalog
+from netspy.RegistryLogger import RegistryLogger
+from netspy.ReportViewer import ReportViewer
 
 
 class ReportWindow(Pmw.MegaToplevel):
