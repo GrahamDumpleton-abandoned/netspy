@@ -281,5 +281,5 @@ class MainWindow:
     self._serviceView._resetFilters()
 
 
-import ProgramStartup
+from netspy import ProgramStartup
 ProgramStartup.run(MainWindow)

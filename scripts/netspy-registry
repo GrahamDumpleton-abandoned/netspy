@@ -20,5 +20,5 @@ class MainWindow:
     self._reportView.pack(side="top",padx=8,pady=8,fill="both",expand="true")
 
 
-import ProgramStartup
+from netspy import ProgramStartup
 ProgramStartup.run(MainWindow)
